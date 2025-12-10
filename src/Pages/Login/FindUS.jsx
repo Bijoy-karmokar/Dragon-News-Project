@@ -5,10 +5,10 @@ const FindUS = () => {
   return (
     <div>
       <h3 className="text-xl font-medium mt-5">Find Us On</h3>
-      <div className="join join-vertical w-full">
-        <button className="btn join-item"><FaFacebook></FaFacebook> Facebook</button>
-        <button className="btn join-item"><FaTwitter></FaTwitter> Twitter</button>
-        <button className="btn join-item"><FaInstagram></FaInstagram> Instagram</button>
+      <div className="join join-vertical w-full space-y-3">
+        <button className="btn btn-outline border-0 hover:bg-base-200 justify-start join-item"><FaFacebook></FaFacebook> Facebook</button>
+        <button className="btn btn-outline border-0 hover:bg-base-200 justify-start join-item"><FaTwitter></FaTwitter> Twitter</button>
+        <button className="btn btn-outline border-0 hover:bg-base-200 justify-start join-item"><FaInstagram></FaInstagram> Instagram</button>
       </div>
     </div>
   );
